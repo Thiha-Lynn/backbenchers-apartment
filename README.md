@@ -1,29 +1,47 @@
 # The Apartment
 
-A separate apartment tour for Backbenchers Studio, based on the locally supplied HDRP Archviz Apartment package. Website route: `/backbenchers-apartment/`.
+[Live apartment](https://thiha-lynn.github.io/backbenchers-apartment/) · [Repository](https://github.com/Thiha-Lynn/backbenchers-apartment)
 
-## Source and conversion
-
-The 1.29 GB package contains 1,009 asset/folder entries: one scene, 101 FBX models, 176 prefabs, 148 materials, 411 PNG textures, animations and ancillary data. The inspected scene has 1,211 mesh renderers and approximately 993,095 instanced vertices before static batching. The original package is retained in Downloads; imported commercial source stays local in `ApartmentStudio`. Only the compiled experience, captured previews and authored integration code are published.
-
-HDRP shaders are converted to the Built-in Standard pipeline for WebGPU / WebGL 2 compatibility. Base colour, normal, metallic/smoothness and occlusion maps are mapped to the corresponding Standard properties. Missing source material slots are repaired with ceramic, wood or graphite materials. The adapted scene uses baked daylight and reflections, static batching, mipmapped 512 px texture caps with 1024 px colour maps for major surfaces and artwork, a 128 MB initial heap with geometric growth, Brotli with decompression fallback for GitHub Pages, high code stripping, and size-optimized IL2CPP. HDRP ray tracing and screen-space effects are not reproduced.
+An interactive apartment visit based on the locally supplied HDRP Archviz Apartment package. The commercial source package stays local; this repository contains the compiled experience, captured previews, and authored integration scripts.
 
 ## Experience
 
-An optional lightweight photo preview lets visitors browse the seven rooms before loading 3D. Seven authored viewpoints cover the lounge, kitchen, bedroom, games area, artist’s corner, bathroom and entrance. Drag to look; WASD/arrows to walk. Touch visitors have a left joystick and independent look gesture. Room changes fade briefly; reduced motion removes easing. Detail, movement speed, sound and atmosphere preferences persist locally. Procedural footsteps are triggered by distance actually traveled; no audio download is required. Sound starts only after visitor interaction.
+Seven viewpoints cover the lounge, kitchen, bedroom, games area, artist’s corner, bathroom, and entrance. Drag to look; WASD/arrows to walk. Touch visitors have a left joystick and independent look gesture. Tap a visible lamp to open its controls, or use **Room menu → Lighting studio**.
 
-The initial HTML contains absolute Open Graph and Twitter image metadata. The 1200 × 630 social image is captured from the actual apartment. Messaging services control whether they display or cache previews.
+Daylight uses warm-white natural light. Midnight uses a dark exterior and warm indoor fixtures. Ten fixtures have independent power, brightness, and color controls. Master power, brightness, and warmth apply across the apartment. Lighting settings persist separately for each mood. Brightness fades between settings; reduced motion removes camera easing and room-transition fades.
+
+The scene uses baked ambient lighting and reflections plus shadowless real-time fixtures. Emitters are positioned at the visible bulbs; shaded pendants use broad downward cones and floor lamps follow their shade direction, avoiding artificial ceiling hotspots. Switching a fixture off removes its direct lighting and bulb emission. Real-time shadows and per-fixture reflection rebakes are intentionally excluded to control browser rendering cost.
+
+Procedural footsteps follow actual distance traveled. Sound begins after visitor interaction and can be disabled. Optional photo previews cover all rooms in both lighting modes without loading Unity.
+
+## Optimization
+
+The original package contains 1,009 asset/folder entries: one scene, 101 FBX models, 176 prefabs, 148 materials, and 411 PNG textures. The source scene has 1,211 mesh renderers and roughly 993,095 instanced vertices.
+
+The upgrade removes 90 exterior renderers outside the explorable apartment, their colliders, and exterior lighting. Materials use Built-in Standard shaders compatible with WebGPU and WebGL 2. Texture imports use Crunch DXT5: 256 px for small props, 512 px for major normal/mask maps, and 1024 px for major surfaces and artwork. Models use medium mesh compression. Shared geometry is transmitted once and batched at startup; source mesh CPU copies are released afterward. Day/night atlas layouts must match for batched geometry. The runtime explicitly selects non-directional lightmaps, retains the matching shader variants, and preserves UV channels. The build clears prefab batching overrides before saving; runtime batching happens after lighting coordinates are restored.
+
+The build uses Brotli with JavaScript decompression fallback for GitHub Pages, high managed stripping, IL2CPP size optimization, a 128 MB initial heap with geometric growth, data caching, and browser-driven frame pacing. Auto detail limits rendering resolution; manual Light and Detailed modes are available.
+
+## Sharing
+
+Static HTML contains absolute Open Graph and Twitter image metadata. The 1200 × 630 card is captured from the apartment. Messaging services decide whether to display or cache previews.
 
 ## Reproduction
 
-Import the original package into the local Unity project with `ApartmentImporter` in place. Run `ApartmentBuilder.Convert`, `ApartmentBuilder.Prepare`, then `ApartmentMaterialCleanup.Apply` and `ApartmentPolish.Apply`; bake and save lighting. Run `ApartmentBuilder.Build`, then `python3 scripts/build-manifest.py`. Capture the apartment preview after lighting is saved.
+Use Unity 6000.7.0b2 with Web build support. Import the original package with `Source/Editor/ApartmentImporter.cs` installed under `Assets/Apartment/Editor`. Copy the remaining authored scripts into their corresponding `Assets/Apartment` folders, and `Source/Inspection/materials.json` into the project’s `Inspection` directory.
 
-Run `node scripts/verify.cjs` with the bundled Playwright module. Optional `APARTMENT_URL` tests a deployment. Physical phones and high-refresh monitors require hardware validation; browser-emulated layouts do not establish real phone performance.
+For a fresh scene, run `ApartmentBuilder.Convert`, `ApartmentBuilder.Prepare`, `ApartmentMaterialCleanup.Apply`, and `ApartmentPolish.Apply`. Then run `ApartmentUpgrade.Prepare` once and `ApartmentFixtureSetup.Prepare` to trim exterior geometry and create fixture controls. The unmodified local scene is retained as `BeforeUpgrade.unity`.
 
-## Validation (1 October 2026)
+Run `ApartmentUpgrade.SetBake("day")`, bake to completion, and `ApartmentUpgrade.CaptureBake("day")`. Repeat for `"night"`. Call `ApartmentUpgrade.Finish` and capture the browser-rendered previews after building. Confirm matching day/night lightmap indices and offsets, zero missing/error materials, and readable source meshes for runtime batching. Build with `ApartmentBuilder.Build`, then run `python3 scripts/build-manifest.py` to fingerprint output files. Capture all room previews with `node scripts/render-previews.cjs`, then run `python3 scripts/verify-preview-lighting.py` (Pillow) and render the social card with `node scripts/render-social.cjs` against the local server. The image check detects missing daylight and corrupted lightmap coordinates on a stable concrete surface.
 
-Unity 6000.7.0b2 build completed with zero errors. Compressed runtime download is approximately 77 MB, requested only after entering 3D. The opening photo and seven-room preview work without that download. First-time 3D loading depends on connection speed; Unity data caching supports repeat visits.
+Run `node scripts/verify.cjs` and `node scripts/verify-lights.cjs` using the bundled Playwright module, or configure `PLAYWRIGHT_MODULE`. Set `HEADLESS=1` for regression checks, `WEBGL=1` to exercise fallback in the main suite, and `APARTMENT_URL` to test a deployment. Hardware frame-rate measurements need an otherwise idle browser/device. Mobile emulation checks layout and input; it does not establish physical-phone performance.
 
-The adapted scene audit found zero missing or error-shader material slots, including inactive objects. Live Chrome WebGPU testing on this Mac recorded approximately 59.6–60.3 fps. All seven viewpoints, keyboard walking, movement-triggered footsteps, quality settings, reduced motion, leave/re-enter, and 320/390/844/1440 px layouts passed without console errors. A separate headless Chrome run with WebGPU disabled confirmed the WebGL 2 / OpenGLES3 fallback and the same functional checks. Mobile emulation passed simultaneous joystick and look gestures; this does not establish physical phone frame rates. 60+ fps on every device is not guaranteed.
+Deployment uses GitHub Pages Actions on pushes to `main`. The workflow publishes only HTML, CSS, JavaScript, preview images, and the Unity runtime.
 
-Authored Unity scripts are included in `Source`; copy them into `Assets/Apartment` in a project containing the original package. Copy `Source/Inspection/materials.json` into the project’s `Inspection` folder before running conversion. Generated source assets, Unity Library caches, and the purchased package are not in this web repository.
+## Release validation — 1 October 2026
+
+The runtime payload is 24,945,668 bytes (23.8 MiB), down from 80,883,214 bytes (77.1 MiB): a 69.2% reduction. Both lighting moods are included in that download. The site does not download Unity until a visitor enters 3D.
+
+The Unity build completed with zero errors. The lighting regression verified all ten lights actually switch off, master intensity and individual color reach Unity, and clicking a visible fixture opens its matching controls. Runtime batching combined 1,058 active renderers in the test scene. Steady Chrome WebGPU samples with midnight fixtures enabled were 60.0 fps. This is a measurement on the test Mac, not a guarantee for every device.
+
+Safari 26.6.2 opened the final WebGL 2 tour and displayed both lighting modes correctly. Safari uses a compatible renderer selection; its frame rate was not measured in an isolated benchmark. Reload recovery handles incomplete startup.

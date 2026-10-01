@@ -54,16 +54,24 @@ public static class ApartmentBuilder {
   EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);AssetDatabase.SaveAssets();Debug.Log("APARTMENT prepared");
  }
  public static void Optimize(){
+  // Both baked moods are installed at runtime; automatic stripping cannot discover them.
+  var graphics=new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/GraphicsSettings.asset")[0]);
+  graphics.FindProperty("m_LightmapStripping").intValue=1;
+  graphics.FindProperty("m_LightmapKeepPlain").boolValue=true;
+  foreach(var key in new[]{"m_LightmapKeepDirCombined","m_LightmapKeepDynamicPlain","m_LightmapKeepDynamicDirCombined","m_LightmapKeepShadowMask","m_LightmapKeepSubtractive"})graphics.FindProperty(key).boolValue=false;
+  graphics.ApplyModifiedPropertiesWithoutUndo();
+
   var t=NamedBuildTarget.WebGL;PlayerSettings.companyName="Backbenchers";PlayerSettings.productName="The Apartment";PlayerSettings.bundleVersion="1.0.0";PlayerSettings.colorSpace=ColorSpace.Linear;
   PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.WebGL,false);PlayerSettings.SetGraphicsAPIs(BuildTarget.WebGL,new[]{GraphicsDeviceType.WebGPU,GraphicsDeviceType.OpenGLES3});
   PlayerSettings.WebGL.compressionFormat=WebGLCompressionFormat.Brotli;PlayerSettings.WebGL.decompressionFallback=true;PlayerSettings.WebGL.dataCaching=true;PlayerSettings.WebGL.initialMemorySize=128;PlayerSettings.WebGL.maximumMemorySize=1024;PlayerSettings.WebGL.memoryGrowthMode=WebGLMemoryGrowthMode.Geometric;PlayerSettings.WebGL.exceptionSupport=WebGLExceptionSupport.ExplicitlyThrownExceptionsOnly;PlayerSettings.WebGL.debugSymbolMode=WebGLDebugSymbolMode.Off;PlayerSettings.WebGL.wasm2023=false;PlayerSettings.WebGL.threadsSupport=false;
-  PlayerSettings.SetStaticBatchingForPlatform(BuildTarget.WebGL,true);PlayerSettings.stripEngineCode=true;PlayerSettings.stripUnusedMeshComponents=true;PlayerSettings.SetManagedStrippingLevel(t,ManagedStrippingLevel.High);PlayerSettings.SetIl2CppCodeGeneration(t,Il2CppCodeGeneration.OptimizeSize);UnityEditor.WebGL.UserBuildSettings.codeOptimization=UnityEditor.WebGL.WasmCodeOptimization.DiskSizeLTO;PlayerSettings.runInBackground=false;AssetDatabase.SaveAssets();
+  PlayerSettings.SetStaticBatchingForPlatform(BuildTarget.WebGL,true);PlayerSettings.stripEngineCode=true;PlayerSettings.stripUnusedMeshComponents=false;PlayerSettings.SetManagedStrippingLevel(t,ManagedStrippingLevel.High);PlayerSettings.SetIl2CppCodeGeneration(t,Il2CppCodeGeneration.OptimizeSize);UnityEditor.WebGL.UserBuildSettings.codeOptimization=UnityEditor.WebGL.WasmCodeOptimization.DiskSizeLTO;PlayerSettings.runInBackground=true;AssetDatabase.SaveAssets();
  }
  public static void Capture(){
   var c=Camera.main;var rt=new RenderTexture(1600,900,24);var tex=new Texture2D(1600,900,TextureFormat.RGB24,false);var old=c.targetTexture;var active=RenderTexture.active;
   try{c.targetTexture=rt;c.Render();RenderTexture.active=rt;tex.ReadPixels(new Rect(0,0,1600,900),0,0);tex.Apply();File.WriteAllBytes("../apartment-web/assets/apartment.jpg",tex.EncodeToJPG(88));}finally{c.targetTexture=old;RenderTexture.active=active;UnityEngine.Object.DestroyImmediate(tex);rt.Release();UnityEngine.Object.DestroyImmediate(rt);}
  }
  public static void Build(){
-  EditorSceneManager.SaveOpenScenes();Optimize();var r=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{Scene},locationPathName="../apartment-web/unity",target=BuildTarget.WebGL,options=BuildOptions.None});File.WriteAllText("Inspection/build-result.txt",r.summary.result+"\n"+r.summary.totalSize+"\n"+r.summary.totalErrors);Debug.Log("APARTMENT BUILD "+r.summary.result);
+  foreach(var renderer in UnityEngine.Object.FindObjectsByType<MeshRenderer>(FindObjectsInactive.Include,FindObjectsSortMode.None)){var go=renderer.gameObject;GameObjectUtility.SetStaticEditorFlags(go,GameObjectUtility.GetStaticEditorFlags(go)&~StaticEditorFlags.BatchingStatic);PrefabUtility.RecordPrefabInstancePropertyModifications(go);}
+  EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());EditorSceneManager.SaveOpenScenes();Optimize();var r=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{Scene},locationPathName="../apartment-web/unity",target=BuildTarget.WebGL,options=BuildOptions.None});File.WriteAllText("Inspection/build-result.txt",r.summary.result+"\n"+r.summary.totalSize+"\n"+r.summary.totalErrors);Debug.Log("APARTMENT BUILD "+r.summary.result);if(r.summary.result!=UnityEditor.Build.Reporting.BuildResult.Succeeded)throw new System.Exception("Apartment build did not succeed: "+r.summary.result);
  }
 }

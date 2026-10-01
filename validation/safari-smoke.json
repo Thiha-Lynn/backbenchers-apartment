@@ -1,0 +1,9 @@
+{
+  "browser": "Safari 26.6.2",
+  "renderer": "OpenGLES3",
+  "startup": true,
+  "daylightVisual": true,
+  "midnightVisual": true,
+  "settingsAndExit": true,
+  "performance": "Not an isolated benchmark; concurrent browser testing."
+}

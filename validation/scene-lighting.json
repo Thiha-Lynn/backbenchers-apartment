@@ -1,0 +1,68 @@
+{
+  "build": "Succeeded\n24967726\n0",
+  "materialErrors": 0,
+  "lightingLayoutsMatch": true,
+  "fixtures": [
+    {
+      "label": "Bedroom pendant",
+      "source": "(-4.15, 3.38, -4.82)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Kitchen pendant",
+      "source": "(-2.70, 3.36, 0.22)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Living room pendant",
+      "source": "(-7.51, 3.36, 0.39)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Living room spotlight",
+      "source": "(-7.23, 3.84, 3.07)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Reading floor lamp",
+      "source": "(-7.82, 1.62, 4.18)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Bathroom pendant",
+      "source": "(-10.60, 2.79, 5.32)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Artist\u2019s corner pendant",
+      "source": "(-7.51, 3.36, 6.07)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Games room pendant",
+      "source": "(-2.70, 3.36, 7.66)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Entrance pendant",
+      "source": "(-7.52, 3.36, 9.34)",
+      "bulbAligned": true,
+      "type": "Spot"
+    },
+    {
+      "label": "Entrance floor lamp",
+      "source": "(-0.41, 1.62, 9.87)",
+      "bulbAligned": true,
+      "type": "Spot"
+    }
+  ],
+  "runtimeBytes": 24945668
+}
