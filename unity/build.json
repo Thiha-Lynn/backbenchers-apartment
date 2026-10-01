@@ -1,0 +1,6 @@
+{
+  "loader": "Build/apartment-bb17328d016d.loader.js",
+  "data": "Build/apartment-a74d8371e032.data.unityweb",
+  "framework": "Build/apartment-b2ae115d755b.framework.js.unityweb",
+  "wasm": "Build/apartment-84ba1a952174.wasm.unityweb"
+}

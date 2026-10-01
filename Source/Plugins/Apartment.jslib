@@ -1,0 +1,1 @@
+mergeInto(LibraryManager.library,{ApartmentReady:function(renderer){document.documentElement.dataset.renderer=UTF8ToString(renderer);},ApartmentStep:function(){window.dispatchEvent(new CustomEvent('apartment-step'));},ApartmentReport:function(fps,x,z,yaw){window.dispatchEvent(new CustomEvent('apartment-frame',{detail:{fps:fps,x:x,z:z,yaw:yaw}}));}});

@@ -1,0 +1,2816 @@
+{
+  "materials": [
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 8.mat",
+      "name": "PaintTubesColor 8",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.39215687,
+        "g": 0.8882324,
+        "b": 0.8980392,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Shisha.mat",
+      "name": "Shisha",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Shisha/Shisha_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Shisha/Shisha_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Shisha/Shisha_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Table04.mat",
+      "name": "Table04",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Table04/Table04_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Table04/Table04_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Table04/Table04_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Floor.mat",
+      "name": "Floor",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Floor/Floor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Floor/Floor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Floor/Floor_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 2.16,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Painting02.mat",
+      "name": "Painting02",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Painting02/Canvas_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Painting02/Canvas_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Painting02/Canvas_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ToothBrushRed.mat",
+      "name": "ToothBrushRed",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ToothBrush/Red/ToothBrush_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ToothBrush/Red/ToothBrush_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ToothBrush/Red/ToothBrush_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/TowelHanger.mat",
+      "name": "TowelHanger",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/TowelHanger/TowelHanger_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/TowelHanger/TowelHanger_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/TowelHanger/TowelHanger_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PotHolder.mat",
+      "name": "PotHolder",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PotHolder/PotHolder_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PotHolder/PotHolder_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PotHolder/PotHolder_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Guitar.mat",
+      "name": "Guitar",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Guitar/Guitar_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Guitar/Guitar_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Guitar/Guitar_Mask.png",
+      "color": {
+        "r": 0.9063317,
+        "g": 0.9063317,
+        "b": 0.9063317,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CoffeeMachine.mat",
+      "name": "CoffeeMachine",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeMachine/CoffeeMachine_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeMachine/CoffeeMachine_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeMachine/CoffeeMachine_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 11.mat",
+      "name": "PaintTubesColor 11",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.097232126,
+        "g": 0.58881134,
+        "b": 0.8962264,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Mattress.mat",
+      "name": "Mattress",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Bed/Mattress_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Bed/Mattress_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Bed/Mattress_Mask.png",
+      "color": {
+        "r": 0.7264151,
+        "g": 0.70928264,
+        "b": 0.70928264,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/WallSocket.mat",
+      "name": "WallSocket",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/WallSocket/WallSocket_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/WallSocket/WallSocket_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/WallSocket/WallSocket_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Radiator.mat",
+      "name": "Radiator",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Radiator/Radiator_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Radiator/Radiator_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Radiator/Radiator_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.756,
+      "smoothness": 0.532,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Shades.mat",
+      "name": "Shades",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 0.5283019,
+        "g": 0.5283019,
+        "b": 0.5283019,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.626,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Shelf.mat",
+      "name": "Shelf",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "metallic": 0.0,
+      "smoothness": 0.4,
+      "normalScale": 1,
+      "transparent": 0,
+      "cutout": 0,
+      "doubleSided": 0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CuttingBoard.mat",
+      "name": "CuttingBoard",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Painting03.mat",
+      "name": "Painting03",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Painting03/Canvas_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Painting03/Canvas_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Painting03/Canvas_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 0.15,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Wall02.mat",
+      "name": "Wall02",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Wall02/Wall02_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Wall02/Wall02_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Wall02/Wall02_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Palette.mat",
+      "name": "Palette",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Palette/Palette_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Palette/Palette_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Palette/Palette_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/BathroomFloor 1.mat",
+      "name": "BathroomFloor 1",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/BathroomFloor/BathroomFloor2_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/BathroomFloor/BathroomFloor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/BathroomFloor/BathroomFloor_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CoffeeCup.mat",
+      "name": "CoffeeCup",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeCup/CoffeeCup_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeCup/CoffeeCup_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeCup/CoffeeCup_Mask.png",
+      "color": {
+        "r": 0.40143287,
+        "g": 0.6775258,
+        "b": 0.9150943,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Towel 1.mat",
+      "name": "Towel 1",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Towel/Towel2_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Towel/Towel_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Towel/Towel_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Cabinet.mat",
+      "name": "Cabinet",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Cabinet/Cabinet_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Cabinet/Cabinet_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Cabinet/Cabinet_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ShowerCubicleGlass.mat",
+      "name": "ShowerCubicleGlass",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ShowerCubicle/ShowerCubicleGlass_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ShowerCubicle/ShowerCubicleGlass_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ShowerCubicle/ShowerCubicleGlass_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Pillar.mat",
+      "name": "Pillar",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Pillar/Pillar_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Pillar/Pillar_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Pillar/Pillar_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Shelf03.mat",
+      "name": "Shelf03",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Shelf03/Shelf03_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Shelf03/Shelf03_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Shelf03/Shelf03_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/KitchenCounter.mat",
+      "name": "KitchenCounter",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/KitchenCounter/KitchenCounter_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/KitchenCounter/KitchenCounter_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/KitchenCounter/KitchenCounter_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Mirror.mat",
+      "name": "Mirror",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Mirror/Mirror_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Mirror/Mirror_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Mirror/Mirror_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CueStickHolder.mat",
+      "name": "CueStickHolder",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CueStickHolder/CueStickHolder_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CueStickHolder/CueStickHolder_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CueStickHolder/CueStickHolder_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ToothBrushBlue.mat",
+      "name": "ToothBrushBlue",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ToothBrush/Blue/ToothBrush_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ToothBrush/Red/ToothBrush_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ToothBrush/Red/ToothBrush_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/LightBulb.mat",
+      "name": "LightBulb",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/LightBulb_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/LightBulb_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/LightBulb_Albedo.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Orange.mat",
+      "name": "Orange",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Orange/Orange_AlbedoTransparency.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Orange/Orange_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Orange/Orange_MaskMap.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Covers.mat",
+      "name": "Covers",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Bed/Covers_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Bed/Covers_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Bed/Covers_Mask.png",
+      "color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Painting01.mat",
+      "name": "Painting01",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Painting01/Canvas_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Painting01/Canvas_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Painting01/Canvas_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CoffeePot.mat",
+      "name": "CoffeePot",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CoffeePot/CoffeePot_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CoffeePot/CoffeePot_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CoffeePot/CoffeePot_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Shower.mat",
+      "name": "Shower",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Shower/Shower_AlbedoTransparency.png",
+      "normalMap": "",
+      "maskMap": "Assets/HDRP Archviz Apartment/Models/Materials/Shower_MaskMap.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/KitchenWall.mat",
+      "name": "KitchenWall",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/KitchenWall/KitchenWall_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/KitchenWall/KitchenWall_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/KitchenWall/KitchenWall_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/AlarmClock.mat",
+      "name": "AlarmClock",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/AlarmClock/AlarmClock_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/AlarmClock/AlarmClock_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/AlarmClock/AlarmClock_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Calander.mat",
+      "name": "Calander",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Calender/Calander_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Calender/Calander_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Calender/Calander_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Ball03.mat",
+      "name": "Ball03",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 0.7075472,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "metallic": 0.04,
+      "smoothness": 0.683,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Canvas.mat",
+      "name": "Canvas",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Canvas/Canvas_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Canvas/Canvas_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Canvas/Canvas_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CuttingBoardYellow.mat",
+      "name": "CuttingBoardYellow",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Mask.png",
+      "color": {
+        "r": 0.81802785,
+        "g": 0.8396226,
+        "b": 0.5109024,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/TableCloth.mat",
+      "name": "TableCloth",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/TableCloth/TableCloth_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/TableCloth/TableCloth_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/TableCloth/TableCloth_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Stove.mat",
+      "name": "Stove",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Stove/Stove_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Stove/Stove_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Stove/Stove_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CuttingBoardGreen.mat",
+      "name": "CuttingBoardGreen",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Mask.png",
+      "color": {
+        "r": 0.24512583,
+        "g": 0.4056604,
+        "b": 0.24301353,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Table02.mat",
+      "name": "Table02",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Table02/Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Table02/Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Table02/Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 3.mat",
+      "name": "PaintTubesColor 3",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.66650707,
+        "g": 0.28648987,
+        "b": 0.6981132,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Shelves.mat",
+      "name": "Shelves",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Shelf/Shelf_AlbedoTransparency.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Shelf/Shelf_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Models/Materials/Shelves_MaskMap.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/LampStanding.mat",
+      "name": "LampStanding",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/LampStanding/LampStanding_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/LampStanding/LampStanding_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/LampStanding/LampStanding_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Pot.mat",
+      "name": "Pot",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Pot/Pot_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Pot/Pot_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Pot/Pot_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 9.mat",
+      "name": "PaintTubesColor 9",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.033018887,
+        "g": 1.0,
+        "b": 0.2714065,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/RecordPlayerTop.mat",
+      "name": "RecordPlayerTop",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/RecordPlayer/RecordPlayerTop_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/RecordPlayer/RecordPlayerTop_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/RecordPlayer/RecordPlayerTop_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 1.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/BedFrame.mat",
+      "name": "BedFrame",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Bed/BedFrame_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Bed/BedFrame_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Bed/BedFrame_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Pool.mat",
+      "name": "Pool",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Pool/Pool_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Pool/Pool_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Pool/Pool_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Window01.mat",
+      "name": "Window01",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Window01/Window01_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Window01/Window01_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Window01/Window01_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 0.5,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/FernLeaf.mat",
+      "name": "FernLeaf",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Fern/Fern_BaseColor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Fern/Fern_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Fern/Fern_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 1.0,
+      "doubleSided": 1.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Speaker.mat",
+      "name": "Speaker",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Speaker/Speaker_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Speaker/Speaker_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Speaker/Speaker_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/HandSoap.mat",
+      "name": "HandSoap",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/HandSoap/HandSoap_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/HandSoap/HandSoap_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/HandSoap/HandSoap_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Towel.mat",
+      "name": "Towel",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Towel/Towel_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Towel/Towel_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Towel/Towel_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/BookShelves.mat",
+      "name": "BookShelves",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/BookShelves/BookShelves_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/BookShelves/BookShelves_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/BookShelves/BookShelves_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CoffeeCup 1.mat",
+      "name": "CoffeeCup 1",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeCup/CoffeeCup_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeCup/CoffeeCup_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CoffeeCup/CoffeeCup_Mask.png",
+      "color": {
+        "r": 0.9137255,
+        "g": 0.39999998,
+        "b": 0.40947908,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ToiletPaperHolder.mat",
+      "name": "ToiletPaperHolder",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ToiletPaperHolder/ToiletPaperHolder_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ToiletPaperHolder/ToiletPaperHolder_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ToiletPaperHolder/ToiletPaperHolder_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/BarStool.mat",
+      "name": "BarStool",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/BarStool/BarStool_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/BarStool/BarStool_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/BarStool/BarStool_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/LightBulbWire.mat",
+      "name": "LightBulbWire",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/LightBulbWire_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/LightBulbWire_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/LightBulbWire_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Brushes.mat",
+      "name": "Brushes",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Brushes/Brushes_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Brushes/Brushes_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Brushes/Brushes_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/VentilationEdge.mat",
+      "name": "VentilationEdge",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ShampooBottleLid.mat",
+      "name": "ShampooBottleLid",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ShampooBottle/ShampooBottleLid_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ShampooBottle/ShampooBottleLid_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ShampooBottle/ShampooBottleLid_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/StorageBin.mat",
+      "name": "StorageBin",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/StorageBin/StorageBin_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/StorageBin/StorageBin_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/StorageBin/StorageBin_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ToiletPaper.mat",
+      "name": "ToiletPaper",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ToiletPaper/ToiletPaper_AlbedoTransparency.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ToiletPaper/ToiletPaper_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ToiletPaper/ToiletPaper_MaskMap.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Wardrope.mat",
+      "name": "Wardrope",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Wardrobe/Wardrope_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Wardrobe/Wardrope_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Wardrobe/Wardrope_Mask.png",
+      "color": {
+        "r": 0.5188679,
+        "g": 0.5188679,
+        "b": 0.5188679,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CuttingBoardRed.mat",
+      "name": "CuttingBoardRed",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Mask.png",
+      "color": {
+        "r": 0.6698113,
+        "g": 0.26223743,
+        "b": 0.26223743,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 1.mat",
+      "name": "PaintTubesColor 1",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.24959949,
+        "g": 0.35004038,
+        "b": 0.6698113,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Cups.mat",
+      "name": "Cups",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Cups/Cups_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Cups/Cups_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Cups/Cups_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Sword.mat",
+      "name": "Sword",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Sword/Sword_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Sword/Sword_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Sword/Sword_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/NightStand.mat",
+      "name": "NightStand",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Nightstand/NightStand_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Nightstand/NightStand_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Nightstand/NightStand_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 0.36,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Sponge.mat",
+      "name": "Sponge",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Sponge/Sponge_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Sponge/Sponge_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Sponge/Sponge_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 0.5,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/FruitBowl.mat",
+      "name": "FruitBowl",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/FruitBowl/FruitBowl_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/FruitBowl/FruitBowl_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/FruitBowl/FruitBowl_Mask.png",
+      "color": {
+        "r": 0.4245283,
+        "g": 0.32460493,
+        "b": 0.3224012,
+        "a": 0.20784314
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Vase.mat",
+      "name": "Vase",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Vase/Vase_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Vase/Vase_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Vase/Vase_Mask.png",
+      "color": {
+        "r": 0.6949537,
+        "g": 0.76752996,
+        "b": 0.9150943,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Fridge.mat",
+      "name": "Fridge",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Fridge/Fridge_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Fridge/Fridge_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Fridge/Fridge_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/LongDrinkGlass.mat",
+      "name": "LongDrinkGlass",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/LongDrinkGlass/LongDrinkGlass_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/LongDrinkGlass/LongDrinkGlass_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/LongDrinkGlass/LongDrinkGlass_Mask.png",
+      "color": {
+        "r": 0.4245283,
+        "g": 0.4245283,
+        "b": 0.4245283,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Bottle 1.mat",
+      "name": "Bottle 1",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.91,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/KnifeBlock.mat",
+      "name": "KnifeBlock",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/KnifeBlock/KnifeBlock_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/KnifeBlock/KnifeBlock_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/KnifeBlock/KnifeBlock_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Can.mat",
+      "name": "Can",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Can/Can_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Can/Can_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Can/Can_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 5.mat",
+      "name": "PaintTubesColor 5",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.8980392,
+        "g": 0.67484,
+        "b": 0.39215687,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Ceiling.mat",
+      "name": "Ceiling",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Ceiling/Ceiling_0.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Ceiling/Ceiling_1.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Ceiling/Ceiling.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CeilingFan.mat",
+      "name": "CeilingFan",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CeilingFan/CeilingFan_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CeilingFan/CeilingFan_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CeilingFan/CeilingFan_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 0.76,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Mat.mat",
+      "name": "Mat",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Mat/Mat_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Mat/Mat_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Mat/Mat_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 6.mat",
+      "name": "PaintTubesColor 6",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.8584906,
+        "g": 0.20652366,
+        "b": 0.4669029,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Ball02.mat",
+      "name": "Ball02",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.04,
+      "smoothness": 0.683,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 10.mat",
+      "name": "PaintTubesColor 10",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 0.527523,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Clock.mat",
+      "name": "Clock",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Clock/Clock_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Clock/Clock_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Clock/Clock_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/RecordPlayer.mat",
+      "name": "RecordPlayer",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/RecordPlayer/RecordPlayer_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/RecordPlayer/RecordPlayer_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/RecordPlayer/RecordPlayer_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Projector.mat",
+      "name": "Projector",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Projector/Projector_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Projector/Projector_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Projector/Projector_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PilarTest.mat",
+      "name": "PilarTest",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Ball01.mat",
+      "name": "Ball01",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 1.0,
+        "g": 0.9256656,
+        "b": 0.023584902,
+        "a": 1.0
+      },
+      "metallic": 0.04,
+      "smoothness": 0.683,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 7.mat",
+      "name": "PaintTubesColor 7",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.3156098,
+        "g": 0.09371662,
+        "b": 0.735849,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/VentilationDuct.mat",
+      "name": "VentilationDuct",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/VentilationDuct/VentilationDuct_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/VentilationDuct/VentilationDuct_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/VentilationDuct/VentilationDuct_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/BathroomFloor.mat",
+      "name": "BathroomFloor",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/BathroomFloor/BathroomFloor3_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/BathroomFloor/BathroomFloor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/BathroomFloor/BathroomFloor_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/DartBoard.mat",
+      "name": "DartBoard",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/DartBoard/DartBoard_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/DartBoard/DartBoard_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/DartBoard/DartBoard_Mask.png",
+      "color": {
+        "r": 0.9056604,
+        "g": 0.86721253,
+        "b": 0.86721253,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Laptop.mat",
+      "name": "Laptop",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Laptop/Laptop_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Laptop/Laptop_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Laptop/Laptop_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ProjectionScreen.mat",
+      "name": "ProjectionScreen",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ProjectionScreen/ProjectionScreen_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ProjectionScreen/ProjectionScreen_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ProjectionScreen/ProjectionScreen_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Bottle.mat",
+      "name": "Bottle",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Bottle/Bottle_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Bottle/Bottle_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Bottle/Bottle_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Bowl.mat",
+      "name": "Bowl",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Bowl/Bowl_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Bowl/Bowl_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Bowl/Bowl_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Closet.mat",
+      "name": "Closet",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Closet/Closet_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Closet/Closet_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Closet/Closet_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 0.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Toothpaste.mat",
+      "name": "Toothpaste",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Toothpaste/Toothpaste_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Toothpaste/Toothpaste_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Toothpaste/Toothpaste_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PoolTable.mat",
+      "name": "PoolTable",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PoolTable/PoolTable_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PoolTable/PoolTable_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PoolTable/PoolTable_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor.mat",
+      "name": "PaintTubesColor",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.7075472,
+        "g": 0.23696157,
+        "b": 0.23696157,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Stool.mat",
+      "name": "Stool",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Stool/Stool_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Stool/Stool_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Stool/Stool_Mask.png",
+      "color": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Textures/Carpet/Materials/Untitled.mat",
+      "name": "Untitled",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Carpet/Untitled.png",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.03,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PosterFrame.mat",
+      "name": "PosterFrame",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PosterFrame/PosterFrame_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PosterFrame/PosterFrame_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PosterFrame/PosterFrame_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Door.mat",
+      "name": "Door",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Door/Door_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Door/Door_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Door/Door_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Plate.mat",
+      "name": "Plate",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Plate/Plate_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Plate/Plate_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Plate/Plate_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Sink.mat",
+      "name": "Sink",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Sink/Sink_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Sink/Sink_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Sink/Sink_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Apple.mat",
+      "name": "Apple",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Apple/Apple_AlbedoTransparency.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Apple/Apple_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Models/Materials/Apple_MaskMap.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Couch.mat",
+      "name": "Couch",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Couch/Couch_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Couch/Couch_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Couch/Couch_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 0.42,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/HeadPillow.mat",
+      "name": "HeadPillow",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Bed/HeadPillow_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Bed/HeadPillow_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Bed/HeadPillow_Mask.png",
+      "color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/DoorFrame.mat",
+      "name": "DoorFrame",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/DoorFrame/DoorFrame_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/DoorFrame/DoorFrame_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/DoorFrame/DoorFrame_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ToiletBrush.mat",
+      "name": "ToiletBrush",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ToiletBrush/ToiletBrush_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ToiletBrush/ToiletBrush_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ToiletBrush/ToiletBrush_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.336,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ElevatorPanel.mat",
+      "name": "ElevatorPanel",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ElevatorPanel/ElevatorPanel_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ElevatorPanel/ElevatorPanel_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ElevatorPanel/ElevatorPanel_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubes.mat",
+      "name": "PaintTubes",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubes_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubes_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubes_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Pencil.mat",
+      "name": "Pencil",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Pencil/Pencil_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Pencil/Pencil_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Pencil/Pencil_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Notepad.mat",
+      "name": "Notepad",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Notepad/Notepad_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Notepad/Notepad_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Notepad/Notepad_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/BookShelf.mat",
+      "name": "BookShelf",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/BookShelves/BookShelves_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/BookShelves/BookShelves_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/BookShelves/BookShelves_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ToiletRolHolder.mat",
+      "name": "ToiletRolHolder",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ToiletHolder/ToiletRolHolder_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ToiletHolder/ToiletRolHolder_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ToiletHolder/ToiletRolHolder_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Wall01.mat",
+      "name": "Wall01",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Wall01/Wall01_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Wall01/Wall01_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Wall01/Wall01_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Carpet.mat",
+      "name": "Carpet",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Carpet/Carpet_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Carpet/Carpet_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Carpet/Carpet_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 0.53,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CoffeeTable.mat",
+      "name": "CoffeeTable",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CofeeTable/CoffeeTable_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CofeeTable/CoffeeTable_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CofeeTable/CoffeeTable_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Toilet.mat",
+      "name": "Toilet",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Toilet/Toilet_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Toilet/Toilet_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Toilet/Toilet_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Pipes.mat",
+      "name": "Pipes",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Pipes/Pipes_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Pipes/Pipes_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Pipes/Pipes_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Glass.mat",
+      "name": "Glass",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Glass/Glass_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Glass/Glass_Normal.png",
+      "maskMap": "",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 1.0,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Easel.mat",
+      "name": "Easel",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Easel/Easel_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Easel/Easel_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Easel/Easel_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Baseboards.mat",
+      "name": "Baseboards",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Baseboards/Baseboards_Basecolor.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Baseboards/Baseboards_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Baseboards/Baseboards_Mask.png",
+      "color": {
+        "r": 0.5566038,
+        "g": 0.53297436,
+        "b": 0.53297436,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/HairGel.mat",
+      "name": "HairGel",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/HairGel/HairGel_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/HairGel/HairGel_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/HairGel/HairGel_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Elevator.mat",
+      "name": "Elevator",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Elevator/Elevator_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Elevator/Elevator_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Elevator/Elevator_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/KnifeSet.mat",
+      "name": "KnifeSet",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/KnifeSet/KnifeSet_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/KnifeSet/KnifeSet_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/KnifeSet/KnifeSet_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/BathroomWall.mat",
+      "name": "BathroomWall",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/BathroomWall/BathroomWall_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/BathroomWall/BathroomWall_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/BathroomWall/BathroomWall_Mask.png",
+      "color": {
+        "r": 0.8018868,
+        "g": 0.76435834,
+        "b": 0.69219476,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ToothBrush.mat",
+      "name": "ToothBrush",
+      "baseMap": "",
+      "normalMap": "",
+      "maskMap": "",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Stool02.mat",
+      "name": "Stool02",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Stool02/Stool02_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Stool02/Stool02_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Stool02/Stool02_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 4.mat",
+      "name": "PaintTubesColor 4",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.9528302,
+        "g": 0.8857613,
+        "b": 0.16629584,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Table03.mat",
+      "name": "Table03",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Table03/Table03_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Table03/Table03_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Table03/Table03_Mask.png",
+      "color": {
+        "r": 0.8,
+        "g": 0.8,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/KitchenCabinet.mat",
+      "name": "KitchenCabinet",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/KitchenCabinet/KitchenCabinet_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/KitchenCabinet/KitchenCabinet_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/KitchenCabinet/KitchenCabinet_Mask.png",
+      "color": {
+        "r": 0.3584906,
+        "g": 0.3584906,
+        "b": 0.3584906,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/Lamp.mat",
+      "name": "Lamp",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/Lamp_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/Lamp_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/Lamp/Lamp_Mask.png",
+      "color": {
+        "r": 0.49056602,
+        "g": 0.49056602,
+        "b": 0.49056602,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ShampooBottle.mat",
+      "name": "ShampooBottle",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ShampooBottle/ShampooBottle_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ShampooBottle/ShampooBottle_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ShampooBottle/ShampooBottle_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PaintTubesColor 2.mat",
+      "name": "PaintTubesColor 2",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PaintTubes/PaintTubesColor_Mask.png",
+      "color": {
+        "r": 0.3215379,
+        "g": 0.6981132,
+        "b": 0.30624774,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.0,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/CuttingBoardWhite.mat",
+      "name": "CuttingBoardWhite",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/CuttingBoard/CuttingBoard_Mask.png",
+      "color": {
+        "r": 0.8584906,
+        "g": 0.8584906,
+        "b": 0.8584906,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/PosterFrameGlass.mat",
+      "name": "PosterFrameGlass",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/PosterFrame/PosterFrameGlass_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/PosterFrame/PosterFrameGlass_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/PosterFrame/PosterFrameGlass_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 1.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    },
+    {
+      "path": "Assets/HDRP Archviz Apartment/Models/Materials/ShowerCubicle.mat",
+      "name": "ShowerCubicle",
+      "baseMap": "Assets/HDRP Archviz Apartment/Textures/ShowerCubicle/ShowerCubicle_Albedo.png",
+      "normalMap": "Assets/HDRP Archviz Apartment/Textures/ShowerCubicle/ShowerCubicle_Normal.png",
+      "maskMap": "Assets/HDRP Archviz Apartment/Textures/ShowerCubicle/ShowerCubicle_Mask.png",
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "metallic": 1.0,
+      "smoothness": 0.5,
+      "normalScale": 1.0,
+      "transparent": 0.0,
+      "cutout": 0.0,
+      "doubleSided": 0.0
+    }
+  ]
+}
